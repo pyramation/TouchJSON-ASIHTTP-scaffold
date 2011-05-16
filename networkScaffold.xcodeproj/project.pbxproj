@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABA0BC71381E3DB003D4932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA0BC61381E3DB003D4932 /* UIKit.framework */; };
+		AABA0BC91381E3DB003D4932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA0BC81381E3DB003D4932 /* Foundation.framework */; };
+		AABA0BCB1381E3DB003D4932 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA0BCA1381E3DB003D4932 /* CoreGraphics.framework */; };
+		AABA0BCD1381E3DB003D4932 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA0BCC1381E3DB003D4932 /* CoreData.framework */; };
+		AABA0BD31381E3DB003D4932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABA0BD11381E3DB003D4932 /* InfoPlist.strings */; };
+		AABA0BD61381E3DB003D4932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AABA0BD51381E3DB003D4932 /* main.m */; };
+		AABA0BD91381E3DB003D4932 /* networkScaffoldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABA0BD81381E3DB003D4932 /* networkScaffoldAppDelegate.m */; };
+		AABA0BDC1381E3DC003D4932 /* networkScaffold.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AABA0BDA1381E3DC003D4932 /* networkScaffold.xcdatamodeld */; };
+		AABA0BE01381E3DC003D4932 /* networkScaffoldAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = AABA0BDF1381E3DC003D4932 /* networkScaffoldAppDelegate_iPhone.m */; };
+		AABA0BE31381E3DC003D4932 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABA0BE11381E3DC003D4932 /* MainWindow_iPhone.xib */; };
+		AABA0BE71381E3DC003D4932 /* networkScaffoldAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = AABA0BE61381E3DC003D4932 /* networkScaffoldAppDelegate_iPad.m */; };
+		AABA0BEA1381E3DC003D4932 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABA0BE81381E3DC003D4932 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AABA0BC21381E3DB003D4932 /* networkScaffold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = networkScaffold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABA0BC61381E3DB003D4932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AABA0BC81381E3DB003D4932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AABA0BCA1381E3DB003D4932 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AABA0BCC1381E3DB003D4932 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AABA0BD01381E3DB003D4932 /* networkScaffold-Info.plist */ = {isa = PBXFileReference; path = "networkScaffold-Info.plist"; sourceTree = "<group>"; };
+		AABA0BD21381E3DB003D4932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AABA0BD41381E3DB003D4932 /* networkScaffold-Prefix.pch */ = {isa = PBXFileReference; path = "networkScaffold-Prefix.pch"; sourceTree = "<group>"; };
+		AABA0BD51381E3DB003D4932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AABA0BD71381E3DB003D4932 /* networkScaffoldAppDelegate.h */ = {isa = PBXFileReference; path = networkScaffoldAppDelegate.h; sourceTree = "<group>"; };
+		AABA0BD81381E3DB003D4932 /* networkScaffoldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = networkScaffoldAppDelegate.m; sourceTree = "<group>"; };
+		AABA0BDB1381E3DC003D4932 /* networkScaffold.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = networkScaffold.xcdatamodel; sourceTree = "<group>"; };
+		AABA0BDE1381E3DC003D4932 /* networkScaffoldAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = networkScaffoldAppDelegate_iPhone.h; path = iPhone/networkScaffoldAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		AABA0BDF1381E3DC003D4932 /* networkScaffoldAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = networkScaffoldAppDelegate_iPhone.m; path = iPhone/networkScaffoldAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		AABA0BE21381E3DC003D4932 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		AABA0BE51381E3DC003D4932 /* networkScaffoldAppDelegate_iPad.h */ = {isa = PBXFileReference; name = networkScaffoldAppDelegate_iPad.h; path = iPad/networkScaffoldAppDelegate_iPad.h; sourceTree = "<group>"; };
+		AABA0BE61381E3DC003D4932 /* networkScaffoldAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = networkScaffoldAppDelegate_iPad.m; path = iPad/networkScaffoldAppDelegate_iPad.m; sourceTree = "<group>"; };
+		AABA0BE91381E3DC003D4932 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABA0BBF1381E3DB003D4932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABA0BC71381E3DB003D4932 /* UIKit.framework in Frameworks */,
+				AABA0BC91381E3DB003D4932 /* Foundation.framework in Frameworks */,
+				AABA0BCB1381E3DB003D4932 /* CoreGraphics.framework in Frameworks */,
+				AABA0BCD1381E3DB003D4932 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABA0BB71381E3DB003D4932 = {
+			isa = PBXGroup;
+			children = (
+				AABA0BCE1381E3DB003D4932 /* networkScaffold */,
+				AABA0BC51381E3DB003D4932 /* Frameworks */,
+				AABA0BC31381E3DB003D4932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABA0BC31381E3DB003D4932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABA0BC21381E3DB003D4932 /* networkScaffold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABA0BC51381E3DB003D4932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABA0BC61381E3DB003D4932 /* UIKit.framework */,
+				AABA0BC81381E3DB003D4932 /* Foundation.framework */,
+				AABA0BCA1381E3DB003D4932 /* CoreGraphics.framework */,
+				AABA0BCC1381E3DB003D4932 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AABA0BCE1381E3DB003D4932 /* networkScaffold */ = {
+			isa = PBXGroup;
+			children = (
+				AABA0BD71381E3DB003D4932 /* networkScaffoldAppDelegate.h */,
+				AABA0BD81381E3DB003D4932 /* networkScaffoldAppDelegate.m */,
+				AABA0BDA1381E3DC003D4932 /* networkScaffold.xcdatamodeld */,
+				AABA0BDD1381E3DC003D4932 /* iPhone */,
+				AABA0BE41381E3DC003D4932 /* iPad */,
+				AABA0BCF1381E3DB003D4932 /* Supporting Files */,
+			);
+			path = networkScaffold;
+			sourceTree = "<group>";
+		};
+		AABA0BCF1381E3DB003D4932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABA0BD01381E3DB003D4932 /* networkScaffold-Info.plist */,
+				AABA0BD11381E3DB003D4932 /* InfoPlist.strings */,
+				AABA0BD41381E3DB003D4932 /* networkScaffold-Prefix.pch */,
+				AABA0BD51381E3DB003D4932 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AABA0BDD1381E3DC003D4932 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				AABA0BDE1381E3DC003D4932 /* networkScaffoldAppDelegate_iPhone.h */,
+				AABA0BDF1381E3DC003D4932 /* networkScaffoldAppDelegate_iPhone.m */,
+				AABA0BE11381E3DC003D4932 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		AABA0BE41381E3DC003D4932 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				AABA0BE51381E3DC003D4932 /* networkScaffoldAppDelegate_iPad.h */,
+				AABA0BE61381E3DC003D4932 /* networkScaffoldAppDelegate_iPad.m */,
+				AABA0BE81381E3DC003D4932 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABA0BC11381E3DB003D4932 /* networkScaffold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABA0BED1381E3DC003D4932 /* Build configuration list for PBXNativeTarget "networkScaffold" */;
+			buildPhases = (
+				AABA0BBE1381E3DB003D4932 /* Sources */,
+				AABA0BBF1381E3DB003D4932 /* Frameworks */,
+				AABA0BC01381E3DB003D4932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = networkScaffold;
+			productName = networkScaffold;
+			productReference = AABA0BC21381E3DB003D4932 /* networkScaffold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABA0BB91381E3DB003D4932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "UC Berkeley";
+			};
+			buildConfigurationList = AABA0BBC1381E3DB003D4932 /* Build configuration list for PBXProject "networkScaffold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AABA0BB71381E3DB003D4932;
+			productRefGroup = AABA0BC31381E3DB003D4932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABA0BC11381E3DB003D4932 /* networkScaffold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABA0BC01381E3DB003D4932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABA0BD31381E3DB003D4932 /* InfoPlist.strings in Resources */,
+				AABA0BE31381E3DC003D4932 /* MainWindow_iPhone.xib in Resources */,
+				AABA0BEA1381E3DC003D4932 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABA0BBE1381E3DB003D4932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABA0BD61381E3DB003D4932 /* main.m in Sources */,
+				AABA0BD91381E3DB003D4932 /* networkScaffoldAppDelegate.m in Sources */,
+				AABA0BDC1381E3DC003D4932 /* networkScaffold.xcdatamodeld in Sources */,
+				AABA0BE01381E3DC003D4932 /* networkScaffoldAppDelegate_iPhone.m in Sources */,
+				AABA0BE71381E3DC003D4932 /* networkScaffoldAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AABA0BD11381E3DB003D4932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABA0BD21381E3DB003D4932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AABA0BE11381E3DC003D4932 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABA0BE21381E3DC003D4932 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AABA0BE81381E3DC003D4932 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABA0BE91381E3DC003D4932 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AABA0BEB1381E3DC003D4932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AABA0BEC1381E3DC003D4932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AABA0BEE1381E3DC003D4932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "networkScaffold/networkScaffold-Prefix.pch";
+				INFOPLIST_FILE = "networkScaffold/networkScaffold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AABA0BEF1381E3DC003D4932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "networkScaffold/networkScaffold-Prefix.pch";
+				INFOPLIST_FILE = "networkScaffold/networkScaffold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABA0BBC1381E3DB003D4932 /* Build configuration list for PBXProject "networkScaffold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABA0BEB1381E3DC003D4932 /* Debug */,
+				AABA0BEC1381E3DC003D4932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABA0BED1381E3DC003D4932 /* Build configuration list for PBXNativeTarget "networkScaffold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABA0BEE1381E3DC003D4932 /* Debug */,
+				AABA0BEF1381E3DC003D4932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AABA0BDA1381E3DC003D4932 /* networkScaffold.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AABA0BDB1381E3DC003D4932 /* networkScaffold.xcdatamodel */,
+			);
+			currentVersion = AABA0BDB1381E3DC003D4932 /* networkScaffold.xcdatamodel */;
+			path = networkScaffold.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AABA0BB91381E3DB003D4932 /* Project object */;
+}
