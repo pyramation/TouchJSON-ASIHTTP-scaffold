@@ -1,0 +1,8 @@
+A scaffold Xcode project for converting JSON data from a webserver into Objective-C dictionaries.
+
+Thanks to TouchJSON and ASIHTTP:
+
+https://github.com/TouchCode/TouchJSON
+https://github.com/pokeb/asi-http-request/tree
+
+
